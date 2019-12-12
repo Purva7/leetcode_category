@@ -86,6 +86,9 @@ def find(root, target, lastleft = None):
   return find(root.left, target, root)
 ```
 
+https://leetcode.com/problems/inorder-successor-in-bst/solution/
+
+
 ## More advanced
 Binary search is a universal treatment for problems with **monotonic solutions**. The KEY is to identify the monotonic natural of these problems. Usually, if the solution is among a ordered list, the answer would be `Yes` before a certain number and `N` after a certain number. And you job to find the last `Y` or the first `N`.
 ```
