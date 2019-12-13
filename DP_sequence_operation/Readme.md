@@ -47,6 +47,7 @@ Suppose ballon `i` burst last. The left and right ballon at index `l` and `r` wo
                     dp[l][r] = max(dp[l][r], dp[l][i] + dp[i][r] + n[l]*n[i]*n[r])
         return dp[0][N-1]
 ```
+#note this is reverse direction. 
 
 **LC546. Remove Boxes**
 ---
