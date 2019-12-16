@@ -3,7 +3,8 @@
 ## Basic operations:
 * 1. Flip `~x`. WARNING: Python returns negative numbers because of the proceding 1s.
 
-* 2. Get the rightmost **set bit** `x & -x`
+* 2. Get the rightmost **set bit** `x & -x` . Other method is `x & ~(x-1)`. Note that `~(x-1) = -(x-1) - 1 = -x`. Remmber `~x = -x-1`. 
+
 
 * 3. Check if all bit are set:
 DO NOT TRY `~x == 0` because you got extra proceding bits.
